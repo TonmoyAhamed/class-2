@@ -90,6 +90,7 @@
     text-decoration: none;
     color: #fff;
     background: #6c63ff;
+    border: 1px solid #6c63ff;
     width: 128px;
     height: 40px;
     display: flex;
@@ -100,6 +101,11 @@
     font-weight: 600;
     text-transform: uppercase;
     font-size: 14px;
+    transition: all .3s linear;
+  }
+  a.btn:hover{
+      background: transparent;
+      color: #6c63ff;
   }
   footer {
     background: #6c63ff;
